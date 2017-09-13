@@ -1,0 +1,16 @@
+author: mongoose-os
+# It is here mainly for use in tests to make sure this is possible.
+description: Most minimal app - no libs, no networking, no RPC, nothing
+# arch: PLATFORM
+version: 1.0
+manifest_version: 2017-06-16
+
+libs_version: ${mos_version}
+modules_version: ${mos_version}
+mongoose_os_version: ${mos_version}
+
+sources:
+  - src
+
+tags:
+  - c
