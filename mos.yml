@@ -1,7 +1,6 @@
 author: mongoose-os
 # It is here mainly for use in tests to make sure this is possible.
 description: Most minimal app - no libs, no networking, no RPC, nothing
-# arch: PLATFORM
 version: 1.0
 manifest_version: 2017-05-18
 
@@ -15,6 +14,6 @@ sources:
 tags:
   - c
 
-# Temporary, while root manifest change propagates (2018/03/29).
 libs:
-  - origin: https://github.com/mongoose-os-libs/mongoose
+  # Must depend on core
+  - origin: https://github.com/mongoose-os-libs/core
