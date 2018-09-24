@@ -15,5 +15,5 @@ tags:
   - c
 
 libs:
-  # Must depend on core
+  - origin: https://github.com/mongoose-os-libs/boards
   - origin: https://github.com/mongoose-os-libs/core
